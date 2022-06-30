@@ -1,0 +1,40 @@
+#
+# OPCIONAL
+#
+# Se o MySQL estiver ativado, a seleção de cores
+# dos jogadores será salva, caso contrário não.
+#
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: color
+  aliases: [colors, cor, cores]
+  permission: colors.use # Para não usar, basta remover ou deixar vazio.
+  permission-message: '&cVocê não possui permissão para executar esse comando!'
+  channels:
+    - 'local'
+    - 'global'
+
+Colors:
+  a: '&a'
+  b: '&b'
+  c: '&c'
+  d: '&d'
+  e: '&e'
+  f: '&f'
+  0: '&0'
+  1: '&1'
+  2: '&2'
+  3: '&3'
+  4: '&4'
+  5: '&5'
+  6: '&6'
+  7: '&7'
+  8: '&8'
+  9: '&9'
